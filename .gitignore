@@ -1,0 +1,26 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Banco SQLite local
+*.db
+*.sqlite
+*.sqlite3
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
+
+# Configurações locais do Claude Code
+.claude/settings.local.json
